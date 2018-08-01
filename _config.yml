@@ -72,18 +72,18 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
-  facebook: daattali
-  github: daattali
+  email: "kulbhushan.chand@gmail.com"
+  facebook: kulbhushan.chand.007
+  github: Kulbhushan-Chand
   twitter: daattali
 #  reddit: yourname
-#  google-plus: +DeanAttali
-#  linkedin: daattali
+  google-plus: +KulbhushanChand
+  linkedin: kulbhushan-chand
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
 #  instagram: deanat78
-#  youtube: user/deanat78
+  youtube: user/KulbhushanChand
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -145,7 +145,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Asia/Kolkata"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
