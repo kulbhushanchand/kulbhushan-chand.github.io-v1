@@ -5,6 +5,14 @@ subtitle: Why you'd want to go on a date with me
 published: true
 ---
 
+
+
+<span class="fa fa-briefcase about-icon"></span>
+I am presently in a Software Engineer at Amazon. Previously I have built softwares at Morgan Stanley (full-time), Goldman Sachs (intern) and Indian Institute of Technology, Bombay (intern).
+
+  
+  
+  
 <i class="fa fa-cube"></i>
 
 My name is Kulbhushan Chand. I have the following qualities:
