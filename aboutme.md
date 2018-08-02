@@ -5,6 +5,8 @@ subtitle: Why you'd want to go on a date with me
 published: true
 ---
 
+<i class="fa fa-cube"></i>
+
 My name is Kulbhushan Chand. I have the following qualities:
 
 - I rock a great mustache
