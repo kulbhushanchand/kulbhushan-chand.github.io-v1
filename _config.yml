@@ -27,7 +27,8 @@ navbar-links:
   About Me: "aboutme"
   Projects: "projects"
   Research: "research"
-  Resume/CV: ""
+  Teaching: "teaching"
+  Resume/CV: "aboutme"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
