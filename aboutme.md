@@ -7,8 +7,10 @@ published: true
 
 
 
+<p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
 I am presently in a Software Engineer at Amazon. Previously I have built softwares at Morgan Stanley (full-time), Goldman Sachs (intern) and Indian Institute of Technology, Bombay (intern).
+</p>
 
   
   
