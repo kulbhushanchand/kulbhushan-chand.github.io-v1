@@ -80,7 +80,7 @@ social-network-links:
   email: "kulbhushan.chand@gmail.com"
   facebook: kulbhushan.chand.007
   github: Kulbhushan-Chand
-  twitter: daattali
+  twitter: ChandKulbhushan
 #  reddit: yourname
   google-plus: +KulbhushanChand
   linkedin: kulbhushan-chand
@@ -99,7 +99,7 @@ social-network-links:
 share-links-active:
   twitter: true
   facebook: true
-  google: false
+  google: true
   linkedin: true
   
  
