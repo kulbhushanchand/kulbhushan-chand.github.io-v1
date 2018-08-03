@@ -5,7 +5,7 @@ subtitle: A humble start with a lot to learn
 bigimg: 
 tags: [personal, website, programming]
 ---
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 # Requirements
 Some of the things I needed to set first to have working website are as -
 
@@ -45,3 +45,5 @@ var chart = new Chart(ctx, {
 });
 
 </script>
+
+
