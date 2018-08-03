@@ -3,7 +3,7 @@ layout: post
 title: The beginning of my personal website
 subtitle: A humble start with a lot to learn
 bigimg: 
-tags: [books, test]
+tags: [personal, website, programming]
 ---
 
 # Requirements
