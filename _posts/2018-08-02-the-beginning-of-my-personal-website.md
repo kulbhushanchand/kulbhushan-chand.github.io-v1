@@ -6,13 +6,26 @@ bigimg:
 tags: [personal, website, programming]
 ---
 
+
 # Requirements
 Some of the things I needed to set first to have working website are as -
 
 ## 1. Website Hosting 
 Hosting a website can be expensive if you are not earning enough. Different hosting sites have their different plans. I choose not to spend anything on hosting, so I decided to go for [GitHub](https://github.com/)
 
-### 2. 
+### 2. a
+
+
+## 1. Website Hosting 
+Hosting a website can be expensive if you are not earning enough. Different hosting sites have their different plans. I choose not to spend anything on hosting, so I decided to go for [GitHub](https://github.com/)
+
+### 2. a
+
+
+## 1. Website Hosting 
+Hosting a website can be expensive if you are not earning enough. Different hosting sites have their different plans. I choose not to spend anything on hosting, so I decided to go for [GitHub](https://github.com/)
+
+### 2. a
 
 <i class="ai ai-ideas-repec ai-5x"></i>
 
@@ -20,8 +33,11 @@ Hosting a website can be expensive if you are not earning enough. Different host
 <i style="color: Tomato;" class="fas fa-stroopwafel fa-3x"></i>
 
 
- 
-<canvas id="myChart"></canvas>
+
+<div class="wow zoomIn">
+  <canvas id="myChart" width="800" height="500"></canvas>
+</div>
+
 
 <script> 
 var ctx = document.getElementById('myChart').getContext('2d');
@@ -45,5 +61,23 @@ var chart = new Chart(ctx, {
 });
 
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
