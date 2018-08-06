@@ -19,8 +19,4 @@ The body's thermoregulation (temperature regulation) mechanism is can be simplif
 However the nature loves to measure the weather tolerance of a people in between summers and rainy season (Here we have 5 seasons in a year, diversity at its best).
 I resides in campus hostel, and students are not allowed to have coolers in the room. Its OK for me, since I am comfortable without cooler/AC and sometimes even ceiling fan.
 
-​```sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-​```
+
