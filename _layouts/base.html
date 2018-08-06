@@ -5,8 +5,9 @@ common-css:
   - "/css/main.css"
 common-ext-css:
   - "//use.fontawesome.com/releases/v5.2.0/css/all.css"
-  - "//cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
-  - "//cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+  - "//cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css"
+  - "//cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+  - "//cdnjs.cloudflare.com/ajax/libs/aos/2.3.3/aos.css"
 common-googlefonts:
   - "Lora:400,700,400italic,700italic"
   - "Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
@@ -15,15 +16,19 @@ common-js:
   - "/js/bootstrap.min.js"
   - "/js/main.js"
 common-ext-js:
-  - "//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"
+  - "//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"
   - "//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+  - "//cdnjs.cloudflare.com/ajax/libs/aos/2.3.3/aos.js"
+  - "//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"
+  - "//cdnjs.cloudflare.com/ajax/libs/mermaid/7.1.2/mermaid.min.js"
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
   {% include head.html %}
-
+  {% include footer-scripts.html %}
+ 
   <body>
 
     {% include gtm_body.html %}
@@ -34,7 +39,11 @@ common-ext-js:
 
     {% include footer.html %}
   
-    {% include footer-scripts.html %}
+    <script>
+      AOS.init();
+    </script>
   
   </body>
+
+  
 </html>

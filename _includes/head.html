@@ -16,16 +16,7 @@
   {% include gtag.html %}
   {% include gtm_head.html %}
 
-  {% if layout.common-ext-js %}
-    {% for js in layout.common-ext-js %}
-      {% include ext-js.html js=js %}
-    {% endfor %}
-  {% endif %}
-
-  <script>
-    new WOW().init();
-    </script>
-
+ 
   {% if layout.common-ext-css %}
     {% for css in layout.common-ext-css %}
       {% include ext-css.html css=css %}

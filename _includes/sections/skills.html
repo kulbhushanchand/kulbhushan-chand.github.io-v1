@@ -12,11 +12,11 @@
     </div>
     
         <div class="wow zoomIn col-lg-6 col-lg-offset-1">
-            <canvas id="{{ site.data.index.skills.id }}" height="500" width="500"></canvas>
+            <canvas id="myChart" height="500" width="500"></canvas>
         </div>
         <div class="col-lg-1"></div>
         <script>
-            var ctx = document.getElementById("{{ site.data.index.skills.id }}");
+            var ctx = document.getElementById("myChart");
             var data = {
                 labels: "{{ site.data.index.skills.aspects }}".split(","),
                 datasets: [{
