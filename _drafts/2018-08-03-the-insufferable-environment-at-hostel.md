@@ -26,15 +26,3 @@ Markup is similar to fenced code blocks. Valid container types are `success`, `i
 ::: info
 You have new mail.
 :::
-
-
-
-
-
-
-
-
-
-
-
-
