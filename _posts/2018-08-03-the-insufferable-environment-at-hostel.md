@@ -7,7 +7,7 @@ tags:
   - hostel
   - arduino
   - project
-published: false
+published: true
 ---
 
 In Punjab state, the weather ranges from *scorching summers* to *shivery winters*. During the rainy season, if it not rains then it is very humid. 
