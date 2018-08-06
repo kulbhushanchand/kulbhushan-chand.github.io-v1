@@ -2,8 +2,12 @@
 layout: post
 title: The beginning of my personal website
 subtitle: A humble start with a lot to learn
-bigimg: 
-tags: [personal, website, programming]
+bigimg: null
+tags:
+  - personal
+  - website
+  - programming
+published: true
 ---
 
 
@@ -26,6 +30,18 @@ Hosting a website can be expensive if you are not earning enough. Different host
 Hosting a website can be expensive if you are not earning enough. Different hosting sites have their different plans. I choose not to spend anything on hosting, so I decided to go for [GitHub](https://github.com/)
 
 ### 2. a
+
+\documentclass{article}
+\usepackage{amsmath}    %% provides \tex{} macro and many more
+\begin{document}
+\[
+\text{CV} =\frac{\text{the standard deviation}}{\text{mean}} \times 100
+\]
+\[
+\text{CV} = \biggl(\frac{\text{the standard deviation}}{\text{mean}}\biggr) 100
+\]
+\end{document}
+
 
 <i class="ai ai-ideas-repec ai-5x"></i>
 
@@ -61,23 +77,3 @@ var chart = new Chart(ctx, {
 });
 
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
