@@ -14,7 +14,6 @@ published: true
 this is the mermaid diagram -
 
 
-<div class="mermaid">
 ```mermaid
 graph TD;
     A-->B;
@@ -22,7 +21,6 @@ graph TD;
     B-->D;
     C-->D;
 ```
-</div>
 
 
 
@@ -77,5 +75,5 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTQzMDAxNF19
+eyJoaXN0b3J5IjpbLTU1NzkxODc2N119
 -->
