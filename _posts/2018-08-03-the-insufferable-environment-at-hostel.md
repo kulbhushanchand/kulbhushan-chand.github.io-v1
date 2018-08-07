@@ -29,5 +29,8 @@ I stays in campus hostel, and students are not allowed to have air-coolers in th
 2. How much there is change in temperature and humidity upon using ceiling fan and opening windows for a while?
 3. Should I do somethinng to change the environment in my room?
 
+```javascript
+var kb = chand;
+```
 
 
