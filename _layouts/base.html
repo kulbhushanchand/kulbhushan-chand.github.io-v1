@@ -27,10 +27,10 @@ common-ext-js:
 <html lang="en">
   <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
   {% include head.html %}
-  {% include footer-scripts.html %}
+
  
   <body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
     {% include gtm_body.html %}
   
     {% include nav.html %}
@@ -39,9 +39,8 @@ common-ext-js:
 
     {% include footer.html %}
   
-    <script>
-      AOS.init();
-    </script>
+    {% include footer-scripts.html %}
+ 
   
   </body>
 

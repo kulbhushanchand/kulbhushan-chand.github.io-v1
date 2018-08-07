@@ -9,7 +9,23 @@ published: true
 ---
 
 
+
+
+
+
 # First post
+
+this is the mermaid diagram -
+
+## First post
+
+this is the mermaid diagram -
+
+### First post
+
+this is the mermaid diagram -
+
+#### First post
 
 this is the mermaid diagram -
 
@@ -21,7 +37,6 @@ graph TD;
     A-->C;
     B-->D;
     C-->D;
-
 </div>
 
 
@@ -40,12 +55,12 @@ graph TD;
 
 <i style="color: Tomato;" class="fas fa-stroopwafel fa-3x"></i>
 
-<div class="item" data-aos="fade-up"> <h1> kulbhushan AOS animation</h1> </div>
+<div class="item" data-aos="fade-up"> kulbhushan AOS animation </div>
 
 
 
 <div class="wow zoomIn" data-wow-duration="0.5s">
-<h2> kulbhushan WOW animation</h2>
+ kulbhushan WOW animation
 </div>
 
 
@@ -75,4 +90,7 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
  
 </script>
 
- 
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTU1MTY3NDYwOF19
+-->
