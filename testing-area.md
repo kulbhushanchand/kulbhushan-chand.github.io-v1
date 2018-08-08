@@ -6,8 +6,7 @@ bigimg: null
 tags:
   - testing
 published: true
-ext-lib: 
-  - fontawesome
+ext-lib:
   - academicon
   - animate
   - wow
