@@ -6,6 +6,15 @@ bigimg: null
 tags:
   - testing
 published: true
+ext-lib: 
+  - fontawesome
+  - academicon
+  - animate
+  - wow
+  - aos
+  - mathjax
+  - mermaid
+  - chartjs
 ---
 
 

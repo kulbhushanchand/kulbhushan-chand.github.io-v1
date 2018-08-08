@@ -8,6 +8,8 @@ tags:
   - arduino
   - project
 published: true
+ext-lib:
+  - mathjax
 ---
 
 In Punjab state, the weather ranges from *scorching summers* to *shivery winters*. At the beginning of rainy season (here we have 5 seasons in a year, diversity at its best), if it not raining, it is very humid. 
