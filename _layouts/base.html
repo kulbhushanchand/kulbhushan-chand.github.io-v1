@@ -32,7 +32,10 @@ ext-lib-js:
 
  
   <body>
+      {% include gtm_body.html %}
 
+
+      
      <!-- The chartjs is included only once here at the beginning of the body (otherwise
     the chartjs will not work). Also because of compare string "chartjs" and not "Chart.js" as in cdnjs link
   the chart.js library is not loaded in footer-scripts.html. Having different search string "chartjs" 
@@ -43,7 +46,7 @@ ext-lib-js:
         {% endif %} 
           
     
-    {% include gtm_body.html %}
+    
   
     {% include nav.html %}
 
