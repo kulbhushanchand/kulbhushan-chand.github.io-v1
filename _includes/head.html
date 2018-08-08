@@ -16,7 +16,19 @@
   {% include gtag.html %}
   {% include gtm_head.html %}
 
- 
+  
+  {% if page.ext-lib %}
+    {% for lib in page.ext-lib %}
+      {% if layout.ext-lib-css %}
+        {% for css in layout.ext-lib-css %}
+          {% if css contains lib %}
+            {% include ext-css.html css=css %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  {% endif %} 
+
   {% if layout.common-ext-css %}
     {% for css in layout.common-ext-css %}
       {% include ext-css.html css=css %}

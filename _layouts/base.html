@@ -4,18 +4,20 @@ common-css:
   - "/css/bootstrap-social.css"
   - "/css/main.css"
 common-ext-css:
-  - "//use.fontawesome.com/releases/v5.2.0/css/all.css"
-  - "//cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css"
-  - "//cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
-  - "//cdnjs.cloudflare.com/ajax/libs/aos/2.3.3/aos.css"
 common-googlefonts:
   - "Lora:400,700,400italic,700italic"
   - "Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
 common-js:
-  - "/js/jquery-1.11.2.min.js"
   - "/js/bootstrap.min.js"
   - "/js/main.js"
 common-ext-js:
+  - "//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+ext-lib-css:
+  - //use.fontawesome.com/releases/v5.2.0/css/all.css"
+  - "//cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css"
+  - "//cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+  - "//cdnjs.cloudflare.com/ajax/libs/aos/2.3.3/aos.css"
+ext-lib-js:
   - "//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"
   - "//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
   - "//cdnjs.cloudflare.com/ajax/libs/aos/2.3.3/aos.js"
@@ -30,7 +32,17 @@ common-ext-js:
 
  
   <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+
+     <!-- The chartjs is included only once here at the beginning of the body (otherwise
+    the chartjs will not work). Also because of compare string "chartjs" and not "Chart.js" as in cdnjs link
+  the chart.js library is not loaded in footer-scripts.html. Having different search string "chartjs" 
+  rather than "Chart.js" helps in not including script second time in footer and also consistency in the
+ tag name in front matter -->
+        {% if page.ext-lib contains 'chartjs' %} 
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+        {% endif %} 
+          
+    
     {% include gtm_body.html %}
   
     {% include nav.html %}

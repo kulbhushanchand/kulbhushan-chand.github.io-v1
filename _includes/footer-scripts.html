@@ -1,8 +1,23 @@
+{% if page.ext-lib %}
+  {% for lib in page.ext-lib %}
+    {% if layout.ext-lib-js %}
+      {% for js in layout.ext-lib-js %}
+        {% if js contains lib %}
+          {% include ext-js.html js=js %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% endif %} 
+
+
 {% if layout.common-ext-js %}
   {% for js in layout.common-ext-js %}
     {% include ext-js.html js=js %}
   {% endfor %}
 {% endif %}
+
+
 
 {% if page.ext-js %}
   {% for js in page.ext-js %}
@@ -35,8 +50,14 @@
 
 {% include google_analytics.html %}
 
-
+{% if page.ext-lib contains 'wow' %} 
 <script>
     new WOW().init();
+</script>
+{% endif %} 
+
+{% if page.ext-lib contains 'aos' %} 
+<script>
     AOS.init();
 </script>
+{% endif %} 
