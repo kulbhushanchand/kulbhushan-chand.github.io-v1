@@ -36,12 +36,13 @@ this is the mermaid diagram -
 
 
 <div class="mermaid">
-
+```mermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
+    
 </div>
 
 
@@ -96,5 +97,5 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
 </script>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjQ2ODE4MjRdfQ==
+eyJoaXN0b3J5IjpbLTg4ODE5NjQzOV19
 -->
