@@ -20,7 +20,7 @@ ext-lib:
 
 <script>
         /* set up XMLHttpRequest */
-        var url = "Kulbhushan-Chand.github.io/img/Test.xlsx";
+        var url = "/img/Test.xlsx";
         var oReq = new XMLHttpRequest();
         oReq.open("GET", url, true);
         oReq.responseType = "arraybuffer";
