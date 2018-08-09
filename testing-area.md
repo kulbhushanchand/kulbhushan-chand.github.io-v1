@@ -18,14 +18,14 @@ ext-lib:
 
 <div> kbc </div>
 
- <script>
-      console.log('start');
+<script>
         /* set up XMLHttpRequest */
-        var url = "http://myclassbook.org/wp-content/uploads/2017/12/Test.xlsx";
+        var url = "http://localhost:4000/img/Test.xlsx";
         var oReq = new XMLHttpRequest();
         oReq.open("GET", url, true);
         oReq.responseType = "arraybuffer";
-       oReq.onload = function(e) {
+ 
+        oReq.onload = function(e) {
             var arraybuffer = oReq.response;
  
             /* convert data to binary string */
@@ -35,7 +35,9 @@ ext-lib:
             var bstr = arr.join("");
  
             /* Call XLSX */
-            var workbook = XLSX.read(bstr, {type: "binary"});
+            var workbook = XLSX.read(bstr, {
+                type: "binary"
+            });
  
             /* DO SOMETHING WITH workbook HERE */
             var first_sheet_name = workbook.SheetNames[0];
@@ -43,10 +45,9 @@ ext-lib:
             var worksheet = workbook.Sheets[first_sheet_name];
             console.log(XLSX.utils.sheet_to_json(worksheet, {raw: true}));
         }
-   
+ 
         oReq.send();
-        console.log('end'); 
-  </script>
+ </script>
 
 
 # First post
