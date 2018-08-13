@@ -45,7 +45,7 @@ graph TD;
 
 
 
-- [ ] a task list item
+- [x] a task list item
 - [ ] list syntax required
 - [ ] normal **formatting**, @mentions, #1234 refs
 - [ ] incomplete
@@ -95,5 +95,6 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
 </script>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzMDU5NDEwLC0xODY3MzE1MDg2XX0=
+eyJoaXN0b3J5IjpbLTg3ODk4OTkxMCw4NTMwNTk0MTAsLTE4Nj
+czMTUwODZdfQ==
 -->
