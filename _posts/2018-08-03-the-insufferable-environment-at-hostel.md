@@ -36,6 +36,7 @@ F --> C;
 </div>
 
 
+
 However, high humidity means air is already have enough water vapour to hold, and requires relatively less to saturate. That means less of sweat evaporates and goes to air at high humidity.
 
 
@@ -51,6 +52,6 @@ var kb = chand;
 kb
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NzU5MzUzNCwyODc5MDYwNzMsLTcyMz
-g4MTc4Nyw1MTc2MjM5OTFdfQ==
+eyJoaXN0b3J5IjpbMTcwMjMwMjQ4MCwxMTY3NTkzNTM0LDI4Nz
+kwNjA3MywtNzIzODgxNzg3LDUxNzYyMzk5MV19
 -->
