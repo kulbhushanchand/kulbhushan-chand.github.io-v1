@@ -23,6 +23,19 @@ The very simplified (bare minimum and not-exact) body's thermoregulation (temper
 3. Skin cools off as sweat evaporates from the skin.
 4. Step 2 and 3 is repeated until the internal temperature comes below threshold.
 
+```mermaid
+graph TD
+A[Physical/Mental activity] -->|Heat generated| B(Increase in internal temperature)
+B --> C(Brain senses rise in temperature)
+C --> D{Is temperature > threshold}
+D -->|Yes| E[Activate sweat glands]
+D -->|No| F[fa:fa-car Deactivates sweat glands]
+E --> G(Body cools off via perspiration)
+G --> C
+F --> C
+```
+
+
 However, high humidity means air is already have enough water vapour to hold, and requires relatively less to saturate. That means less of sweat evaporates and goes to air at high humidity.
 
 
@@ -38,5 +51,5 @@ var kb = chand;
 kb
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3NjIzOTkxXX0=
+eyJoaXN0b3J5IjpbLTcyMzg4MTc4Nyw1MTc2MjM5OTFdfQ==
 -->
