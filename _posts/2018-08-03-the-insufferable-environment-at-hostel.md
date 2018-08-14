@@ -11,6 +11,7 @@ published: true
 ext-lib:
   - mathjax
   - fontawesome
+  - mermaid
 ---
 
 In Punjab state, the weather ranges from *scorching summers* to *shivery winters*. At the beginning of rainy season (here we have 5 seasons in a year, diversity at its best), if it not raining, it is very humid. 
@@ -58,6 +59,7 @@ var kb = chand;
 kb
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQ3OTcxODgsMTE2NzU5MzUzNCwyOD
-c5MDYwNzMsLTcyMzg4MTc4Nyw1MTc2MjM5OTFdfQ==
+eyJoaXN0b3J5IjpbMjYyMzM5MTgyLC0xNzc0Nzk3MTg4LDExNj
+c1OTM1MzQsMjg3OTA2MDczLC03MjM4ODE3ODcsNTE3NjIzOTkx
+XX0=
 -->
