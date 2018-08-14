@@ -35,7 +35,13 @@ G --> C;
 F --> C;
 </div>
 
-
+<div class="mermaid">
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+</div>
 
 However, high humidity means air is already have enough water vapour to hold, and requires relatively less to saturate. That means less of sweat evaporates and goes to air at high humidity.
 
@@ -52,6 +58,6 @@ var kb = chand;
 kb
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjMwMjQ4MCwxMTY3NTkzNTM0LDI4Nz
-kwNjA3MywtNzIzODgxNzg3LDUxNzYyMzk5MV19
+eyJoaXN0b3J5IjpbLTE3NzQ3OTcxODgsMTE2NzU5MzUzNCwyOD
+c5MDYwNzMsLTcyMzg4MTc4Nyw1MTc2MjM5OTFdfQ==
 -->
