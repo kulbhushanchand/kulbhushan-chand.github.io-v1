@@ -25,11 +25,11 @@ description: My personal website
 navbar-links:
   Testing Area: "pages/testing-area"
   Blog: ""
-  About Me: "pages/aboutme"
-  Projects: "pages/projects"
-  Research: "pages/research"
-  Teaching: "pages/teaching"
-  Resume/CV: "pages/aboutme"
+#  About Me: "pages/aboutme"
+#  Projects: "pages/projects"
+#  Research: "pages/research"
+#  Teaching: "pages/teaching"
+#  Resume/CV: "pages/aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
