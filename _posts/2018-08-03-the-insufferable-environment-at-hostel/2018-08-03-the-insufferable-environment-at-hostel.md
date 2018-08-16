@@ -14,7 +14,13 @@ ext-lib:
   - mermaid
 ---
 
+  
+
+
+
 In Punjab state, the weather ranges from *scorching summers* to *shivery winters*. At the beginning of rainy season (here we have 5 seasons in a year, diversity at its best), if it not raining, it is very humid. 
+
+
 
 The high amount of humidity in the air will decrease the rate of perspiration (or evaporaton of sweat from the skin). This will create a very uncomfortable situation because body needs to cool-off via perspiration.
 
