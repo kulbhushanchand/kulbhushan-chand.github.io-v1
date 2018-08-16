@@ -3,6 +3,9 @@ layout: page
 title: About me
 subtitle: 
 published: true
+ext-lib:
+    - academicons
+    - chartjs
 ---
 
 
