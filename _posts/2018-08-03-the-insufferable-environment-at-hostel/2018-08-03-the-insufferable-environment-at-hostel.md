@@ -7,7 +7,7 @@ tags:
   - hostel
   - arduino
   - project
-published: true
+published: false
 ext-lib:
   - mathjax
   - fontawesome
