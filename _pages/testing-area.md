@@ -111,7 +111,7 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
 </script>
 
 
-
+<div class="mobile-js-hide">
 <script>
 var typed = new Typed( '.page-subheading', {
   strings: [" Nothing meaningful ^500 <span style='color:#890000; font-weight:bold;'>here</span>" ,
@@ -129,4 +129,4 @@ var typed = new Typed( '.page-subheading', {
   shuffle: false
 });
 </script>
-
+</div>
