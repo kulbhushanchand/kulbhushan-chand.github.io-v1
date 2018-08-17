@@ -14,11 +14,14 @@ ext-lib:
   - mathjax
   - mermaid
   - chartjs
+  - baffle
+  - typed
 ---
 
-11
+        
 
-# First post
+
+# First post working
 
 this is the mermaid diagram -
 
@@ -33,8 +36,6 @@ this is the mermaid diagram -
 #### First post
 
 this is the mermaid diagram -
-
-
 
 
 
@@ -54,6 +55,9 @@ graph TD;
 - [ ] normal **formatting**, @mentions, #1234 refs
 - [ ] incomplete
 - [x] completed
+
+
+
 
 
 
@@ -98,10 +102,31 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
  
 </script>
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODk4OTkxMCw4NTMwNTk0MTAsLTE4Nj
-czMTUwODZdfQ==
--->
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3Njc5MzM2N119
--->
+
+<script>
+    var b = window.baffle('h4', 
+     { characters: 'b6c7807bb10b5d867000',// ▓░█ ▒░▒▓░ ▒░░▓> ▒█▓ █░><▒ █▒█▓ ▓░/ ▓▓/█ █▓▒', 
+      speed: 50 });
+  b.start().once().reveal(500, 500);
+</script>
+
+
+
+<script>
+var typed = new Typed( '.page-subheading', {
+  strings: [" Nothing meaningful ^500 <span style='color:#890000; font-weight:bold;'>here</span>" ,
+            " Nothing meaningful ^500 <span style='color:#890000; font-weight:bold;'>there</span>", 
+            " Nothing meaningful ^500 <span style='color:#890000; font-weight:bold;'>anywhere</span>", 
+            " It's a silly ^1000 <span style='color:#890000; font-weight:bold;'>World !!!</span>"],
+  startDelay: 1000,
+  typeSpeed: 65,
+  backSpeed: 60,
+  backDelay: 500,
+  showCursor: true,
+  smartBackspace: true, // this is a default
+  loop: false,
+  fadeOut: false,
+  shuffle: false
+});
+</script>
+
