@@ -487,11 +487,55 @@ footer .theme-by {
 .intro-header .post-heading .post-subheading {
   font-size: 27px;
   line-height: 1.1;
-  display: block;
+  display: inline;  /* modified to accomodate cursor of typed.js should use inline instead of inline-block, else the following text gets rearrange when there is no text in animation*/
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
 }
+
+.typed-cursor{
+  font-size: 27px;
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-ms-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+      }
+@-o-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+.hChar {
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+
 .intro-header .post-heading .post-subheading {
   margin-bottom: 20px;
 }

@@ -24,8 +24,8 @@ description: My personal website
 # List of links in the navigation bar
 navbar-links:
   Testing Area: "pages/testing-area"
-  Blog: ""
-#  About Me: "pages/aboutme"
+  Blog: "blog/"
+  About Me: "pages/aboutme"
 #  Projects: "pages/projects"
 #  Research: "pages/research"
 #  Teaching: "pages/teaching"
@@ -34,7 +34,7 @@ navbar-links:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
 #    - GitHub Pages: "https://pages.github.com/"
-  
+#  Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -156,8 +156,9 @@ title-separator: "-"
 timezone: "Asia/Kolkata"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: "" 
 paginate: 5
+paginate_path: "/blog/page:num/"
 
 kramdown:
   input: GFM
@@ -185,10 +186,10 @@ link-tags: true
 collections:
   pages:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:title/
   posts:
     output: true
-    permalink: /:collection/:path/
+    permalink: /blog/:collection/:year/:month/:day/:title/
 
 
 
