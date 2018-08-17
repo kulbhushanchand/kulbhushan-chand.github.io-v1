@@ -25,7 +25,7 @@ description: My personal website
 navbar-links:
   Testing Area: "pages/testing-area"
   Blog: ""
-#  About Me: "pages/aboutme"
+  About Me: "pages/aboutme"
 #  Projects: "pages/projects"
 #  Research: "pages/research"
 #  Teaching: "pages/teaching"
