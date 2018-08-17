@@ -24,7 +24,11 @@ description: My personal website
 # List of links in the navigation bar
 navbar-links:
   Testing Area: "pages/testing-area"
+<<<<<<< HEAD
   Blog: "blog/"
+=======
+  Blog: ""
+>>>>>>> master
   About Me: "pages/aboutme"
 #  Projects: "pages/projects"
 #  Research: "pages/research"
