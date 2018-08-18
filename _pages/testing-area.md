@@ -25,8 +25,8 @@ var jQuery_1_11_2 = $.noConflict(true);
 
 
 <script>
-$(function(){
-   jQuery_1_11_2$(".typed").typed({
+jQuery_1_11_2(function(){
+   jQuery_1_11_2(".typed").typed({
       strings: ["Technology.","Open Source.","Mathematics.","Space and the Cosmos.","Science.","Art.","Linux."],
       typeSpeed: 100,
       loop: true,
@@ -46,7 +46,7 @@ $(function(){
 </div>    
 
 
-# First post t5
+# First post t6
 
 this is the mermaid diagram -
 
