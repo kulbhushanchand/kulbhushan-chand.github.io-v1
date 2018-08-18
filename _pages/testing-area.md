@@ -18,6 +18,10 @@ ext-lib:
   - typed
 ---
 
+<!-- Typed.js --> 
+<script src="/js/jquery-1.11.2.min.js"></script> <!-- Typed.js uses old jquery ver -->
+<script src="/js/typed.js" type="text/javascript"></script>
+
 <script>
   $(function(){
     $(".typed").typed({
@@ -40,7 +44,7 @@ ext-lib:
 </div>    
 
 
-# First post t1
+# First post t2
 
 this is the mermaid diagram -
 
