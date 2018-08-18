@@ -18,7 +18,7 @@ ext-lib:
   - typed
 ---
 
-    <script>
+<script>
   $(function(){
     $(".typed").typed({
       strings: ["Technology.","Open Source.","Mathematics.","Space and the Cosmos.","Science.","Art.","Linux."],
