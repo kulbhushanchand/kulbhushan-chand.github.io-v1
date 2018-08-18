@@ -142,17 +142,14 @@ var typed = new Typed( '.page-subheading', {
 
 <script>
 var typed = new Typed( 'typedTagline', {
-  strings: [" Nothing meaningful ^500 <span style='color:#890000; font-weight:bold;'>here</span>" ,
-            " Nothing meaningful ^500 <span style='color:#890000; font-weight:bold;'>there</span>", 
-            " Nothing meaningful ^500 <span style='color:#890000; font-weight:bold;'>anywhere</span>", 
-            " It's a silly ^1000 <span style='color:#890000; font-weight:bold;'>World !!!</span>"],
+  strings: ["Technology.","Open Source.","Mathematics.","Space and the Cosmos.","Science.","Art.","Linux."],
   startDelay: 1000,
-  typeSpeed: 65,
-  backSpeed: 60,
-  backDelay: 500,
+  typeSpeed: 100,
+  backSpeed: 0,
+  backDelay: 1000,
   showCursor: true,
   smartBackspace: true, // this is a default
-  loop: false,
+  loop: true,
   fadeOut: false,
   shuffle: false
 });
