@@ -23,14 +23,14 @@ ext-lib:
   <div class="row">
     <div class="col-sm-12">
       <div class="text-center" style="color:#890000">
-        <h1>I write about<span class="page-subheading2"></span></h1> 
+        <h1>I write about <span class="page-subheading2" style="color:#2bce2e" ></span></h1> 
       </div>
     </div>
   </div>
  </div>    
 
 
-# First post t21
+# First post t22
 
 this is the mermaid diagram -
 
