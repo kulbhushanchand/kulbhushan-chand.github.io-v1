@@ -22,17 +22,15 @@ ext-lib:
 <div class="mobile-js-hide">
   <div class="row">
     <div class="col-sm-12">
-      <div class="text-center">
+      <div class="text-center typedTagline" style="color:#890000>
         <h1>I write about</h1> 
       </div>
-        <span class="typedTagline" style="color:#890000"></span>
-      
     </div>
   </div>
 </div>    
 
 
-# First post t13
+# First post t14
 
 this is the mermaid diagram -
 
