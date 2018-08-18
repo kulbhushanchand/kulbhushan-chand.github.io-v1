@@ -23,7 +23,7 @@ ext-lib:
   <div class="row">
     <div class="col-sm-12">
       <div class="text-center">
-          <h1>I write about <span class="typed" style="color:#890000";></span></h1>
+        <h1>I write about</h1> <span class="typedTagline" style="color:#890000";></span></h1>
       </div>
     </div>
   </div>
