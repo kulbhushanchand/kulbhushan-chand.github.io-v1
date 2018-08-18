@@ -25,8 +25,8 @@ var jQuery_1_11_2 = $.noConflict(true);
 
 
 <script>
-jQuery_1_11_2$(function(){
-    $(".typed").typed({
+$(function(){
+   jQuery_1_11_2$(".typed").typed({
       strings: ["Technology.","Open Source.","Mathematics.","Space and the Cosmos.","Science.","Art.","Linux."],
       typeSpeed: 100,
       loop: true,
