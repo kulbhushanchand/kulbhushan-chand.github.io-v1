@@ -18,10 +18,19 @@ ext-lib:
   - typed
 ---
 
-        
+
+<div class="mobile-js-hide">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="text-center" style="color:#890000">
+        <h2>I write about <span class="page-subheading2" style="color:#32662a" ></span></h2> 
+      </div>
+    </div>
+  </div>
+ </div>    
 
 
-# First post final
+# First post t23
 
 this is the mermaid diagram -
 
@@ -125,6 +134,22 @@ var typed = new Typed( '.page-subheading', {
   showCursor: true,
   smartBackspace: true, // this is a default
   loop: false,
+  fadeOut: false,
+  shuffle: false
+});
+</script>
+
+
+<script>
+var typed = new Typed( '.page-subheading2', {
+  strings: ["Technology.","Open Source.","Science."],
+  startDelay: 1000,
+  typeSpeed: 100,
+  backSpeed: 0,
+  backDelay: 1000,
+  showCursor: true,
+  smartBackspace: true, // this is a default
+  loop: true,
   fadeOut: false,
   shuffle: false
 });

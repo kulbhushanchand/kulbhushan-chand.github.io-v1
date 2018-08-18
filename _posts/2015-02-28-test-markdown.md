@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title: Test markdown
 subtitle: Each post also has a subtitle
 gh-repo: daattali/beautiful-jekyll
