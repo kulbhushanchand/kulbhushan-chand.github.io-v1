@@ -33,7 +33,7 @@ ext-lib:
   });
 </script>
 
-<div class="mobile-js-hide">
+<div class="mobile-js-hide1">
   <div class="row">
     <div class="col-sm-12">
       <div class="text-center">
@@ -44,7 +44,7 @@ ext-lib:
 </div>    
 
 
-# First post t2
+# First post t3
 
 this is the mermaid diagram -
 
