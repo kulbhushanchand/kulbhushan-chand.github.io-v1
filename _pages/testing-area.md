@@ -152,7 +152,7 @@ var typed = new Typed( '.page-subheading', {
 
 
 <script>
-var typed = new Typed( '.page-subheading', {
+var typed = new Typed( '.page-subheading2', {
   strings: ["Technology.","Open Source.","Mathematics.","Space and the Cosmos.","Science.","Art.","Linux."],
   startDelay: 1000,
   typeSpeed: 100,
