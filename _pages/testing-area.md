@@ -19,8 +19,8 @@ ext-lib:
 ---
 
 <!-- Typed.js --> 
-<script src="/js/jquery-1.11.2.min.js"></script> <!-- Typed.js uses old jquery ver -->
-<script src="/js/typed.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> <!-- Typed.js uses old jquery ver -->
+
 
 <script>
   $(function(){
