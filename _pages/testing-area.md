@@ -23,7 +23,7 @@ ext-lib:
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="page-heading">
-           <span class="page-subheading2"></span>
+        
 			   </div>
       </div>
     </div>
@@ -34,14 +34,14 @@ ext-lib:
   <div class="row">
     <div class="col-sm-12">
       <div class="text-center typedTagline" style="color:#890000">
-        <h1>I write about</h1> 
+        <h1>I write about</h1> <span class="page-subheading2"></span>
       </div>
     </div>
   </div>
    
 
 
-# First post t17
+# First post t18
 
 this is the mermaid diagram -
 
