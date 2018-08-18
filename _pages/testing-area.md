@@ -22,7 +22,7 @@ ext-lib:
 <div class="mobile-js-hide">
   <div class="row">
     <div class="col-sm-12">
-      <div class="text-center" style="color:#890000">
+      <div style="color:#890000">
         <h2> <span class="typedLine1" style="color:#32662a" ></span></h2> 
       </div>
     </div>
@@ -30,7 +30,7 @@ ext-lib:
  </div>    
 
 
-# First post t25
+# First post t26
 
 this is the mermaid diagram -
 
