@@ -22,15 +22,13 @@ ext-lib:
 <div class="mobile-js-hide">
   <div class="row">
     <div class="col-sm-12">
-      <div style="color:#890000">
-        <h2> <span class="typedLine1" style="color:#32662a" ></span></h2> 
-      </div>
-    </div>
+      <h2> <span class="typedLine1" style="color:#32662a" ></span></h2> 
+     </div>
   </div>
  </div>    
 
 
-# First post t27
+# First post t28
 
 this is the mermaid diagram -
 
@@ -124,9 +122,9 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
 <script>
 var typed = new Typed( '.typedLine1', {
   strings: [" Nothing meaningful ^500 here" ,
-            " Nothing meaningful ^500 <span style='color:#890000; font-weight:bold;'>there</span>", 
-            " Nothing meaningful ^500 <span style='color:#890000; font-weight:bold;'>anywhere</span>", 
-            " It's a silly ^1000 <span style='color:#890000; font-weight:bold;'>World !!!</span>"],
+            " Nothing meaningful ^500 <span style='color:#890000'>there</span>", 
+            " Nothing meaningful ^500 <span style='color:#890000'>anywhere</span>", 
+            " It's a silly ^1000 <span style='color:#890000'>World !!!</span>"],
   startDelay: 1000,
   typeSpeed: 65,
   backSpeed: 60,
