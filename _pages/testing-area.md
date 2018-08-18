@@ -19,11 +19,13 @@ ext-lib:
 ---
 
 <!-- Typed.js --> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> <!-- Typed.js uses old jquery ver -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+var jQuery_1_11_2 = $.noConflict(true);
+</script> <!-- Typed.js uses old jquery ver -->
 
 
 <script>
-  $(function(){
+jQuery_1_11_2$(function(){
     $(".typed").typed({
       strings: ["Technology.","Open Source.","Mathematics.","Space and the Cosmos.","Science.","Art.","Linux."],
       typeSpeed: 100,
