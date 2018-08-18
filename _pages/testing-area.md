@@ -30,7 +30,7 @@ ext-lib:
  </div>    
 
 
-# First post t26
+# First post t27
 
 this is the mermaid diagram -
 
@@ -123,7 +123,7 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
 
 <script>
 var typed = new Typed( '.typedLine1', {
-  strings: [" Nothing meaningful ^500 <span style='color:#890000; font-weight:bold;'>here</span>" ,
+  strings: [" Nothing meaningful ^500 here" ,
             " Nothing meaningful ^500 <span style='color:#890000; font-weight:bold;'>there</span>", 
             " Nothing meaningful ^500 <span style='color:#890000; font-weight:bold;'>anywhere</span>", 
             " It's a silly ^1000 <span style='color:#890000; font-weight:bold;'>World !!!</span>"],
