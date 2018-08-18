@@ -18,8 +18,19 @@ ext-lib:
   - typed
 ---
 
-
 <div class="mobile-js-hide">
+<div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+           <span class="page-subheading2"></span>
+			   </div>
+      </div>
+    </div>
+  </div>
+</div>   
+
+
   <div class="row">
     <div class="col-sm-12">
       <div class="text-center typedTagline" style="color:#890000>
@@ -27,10 +38,10 @@ ext-lib:
       </div>
     </div>
   </div>
-</div>    
+   
 
 
-# First post t14
+# First post t15
 
 this is the mermaid diagram -
 
@@ -141,7 +152,7 @@ var typed = new Typed( '.page-subheading', {
 
 
 <script>
-var typed = new Typed( '.typedTagline', {
+var typed = new Typed( '.page-subheading', {
   strings: ["Technology.","Open Source.","Mathematics.","Space and the Cosmos.","Science.","Art.","Linux."],
   startDelay: 1000,
   typeSpeed: 100,
