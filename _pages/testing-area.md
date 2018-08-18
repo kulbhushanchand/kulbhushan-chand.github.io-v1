@@ -18,7 +18,26 @@ ext-lib:
   - typed
 ---
 
-        
+    <script>
+  $(function(){
+    $(".typed").typed({
+      strings: ["Technology.","Open Source.","Mathematics.","Space and the Cosmos.","Science.","Art.","Linux."],
+      typeSpeed: 100,
+      loop: true,
+      backDelay: 1000
+    });
+  });
+</script>
+
+<div class="mobile-js-hide">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="text-center">
+          <h1>I write about <span class="typed" style="color:#890000";></span></h1>
+      </div>
+    </div>
+  </div>
+</div>    
 
 
 # First post t1
