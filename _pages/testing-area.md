@@ -33,7 +33,7 @@ ext-lib:
 
   <div class="row">
     <div class="col-sm-12">
-      <div class="text-center typedTagline" style="color:#890000>
+      <div class="text-center typedTagline" style="color:#890000">
         <h1>I write about</h1> 
       </div>
     </div>
@@ -41,7 +41,7 @@ ext-lib:
    
 
 
-# First post t15
+# First post t16
 
 this is the mermaid diagram -
 
