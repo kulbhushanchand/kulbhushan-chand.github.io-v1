@@ -18,28 +18,12 @@ ext-lib:
   - typed
 ---
 
-<!-- Typed.js --> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js">
-var jQuery_1_11_2 = $.noConflict(true);
-</script> <!-- Typed.js uses old jquery ver -->
 
-
-<script>
-jQuery_1_11_2(function(){
-   jQuery_1_11_2(".typed").typed({
-      strings: ["Technology.","Open Source.","Mathematics.","Space and the Cosmos.","Science.","Art.","Linux."],
-      typeSpeed: 100,
-      loop: true,
-      backDelay: 1000
-    });
-  });
-</script>
-
-<div class="mobile-js-hide1">
+<div class="mobile-js-hide">
   <div class="row">
     <div class="col-sm-12">
       <div class="text-center">
-          <h1>I write about <span class="typed" style="color:#890000";></span></h1>
+          <h1>I write about <span class="typedTagline" style="color:#890000";></span></h1>
       </div>
     </div>
   </div>
@@ -136,7 +120,7 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
 </script>
 
 
-<div class="mobile-js-hide">
+
 <script>
 var typed = new Typed( '.page-subheading', {
   strings: [" Nothing meaningful ^500 <span style='color:#890000; font-weight:bold;'>here</span>" ,
@@ -154,4 +138,23 @@ var typed = new Typed( '.page-subheading', {
   shuffle: false
 });
 </script>
-</div>
+
+
+<script>
+var typed = new Typed( 'typedTagline', {
+  strings: [" Nothing meaningful ^500 <span style='color:#890000; font-weight:bold;'>here</span>" ,
+            " Nothing meaningful ^500 <span style='color:#890000; font-weight:bold;'>there</span>", 
+            " Nothing meaningful ^500 <span style='color:#890000; font-weight:bold;'>anywhere</span>", 
+            " It's a silly ^1000 <span style='color:#890000; font-weight:bold;'>World !!!</span>"],
+  startDelay: 1000,
+  typeSpeed: 65,
+  backSpeed: 60,
+  backDelay: 500,
+  showCursor: true,
+  smartBackspace: true, // this is a default
+  loop: false,
+  fadeOut: false,
+  shuffle: false
+});
+</script>
+
