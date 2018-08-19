@@ -28,7 +28,7 @@ ext-lib:
  </div>    
 
 
-# First post t31
+# First post t32
 
 this is the mermaid diagram -
 
@@ -131,7 +131,7 @@ var typed = new Typed( '.typedLine1', {
   backDelay: 500,
   showCursor: true,
   smartBackspace: true, // this is a default
-  loop: false,
+  loop: true,
   fadeOut: false,
   shuffle: false
 });
