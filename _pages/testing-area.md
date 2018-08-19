@@ -121,10 +121,9 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
 
 <script>
 var typed = new Typed( '.typedLine1', {
-  strings: [" Nothing meaningful ^500 <span style='color:#32662a'>here</span>",
-            " Nothing meaningful ^500 <span style='color:#32662a'>there</span>", 
-            " Nothing meaningful ^500 <span style='color:#32662a'>anywhere</span>", 
-            " It's a silly ^1000 <span style='color:#32662a'>World !!!</span>"],
+  strings: [" You earn your trophies at ^500 <span style='color:#32662a'> practice.</span> 
+              You just pick them up at ^700 <span style='color:#32662a'>competitions"</span>"],
+          
   startDelay: 1000,
   typeSpeed: 65,
   backSpeed: 60,
