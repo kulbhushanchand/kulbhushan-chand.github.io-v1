@@ -27,6 +27,10 @@ ext-lib:
   </div>
  </div>    
 
+<a href="https://zenodo.org/badge/latestdoi/95277217"><img src="https://zenodo.org/badge/95277217.svg" alt="DOI"></a>
+
+[![DOI](https://zenodo.org/badge/95277217.svg)](https://zenodo.org/badge/latestdoi/95277217)
+
 
 # First post t32
 
