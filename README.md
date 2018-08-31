@@ -1,8 +1,6 @@
 [![DOI](https://zenodo.org/badge/95277217.svg)](https://zenodo.org/badge/latestdoi/95277217)
 
 
-![A test image](https://zenodo.org/badge/95277217.svg)
-
 # Beautiful Jekyll
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/daattali/20)
