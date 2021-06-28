@@ -1,3 +1,8 @@
+## ⚠️ Note 
+This repository is archived and the website is available under new repository at https://github.com/kulbhushanchand/kulbhushanchand.github.io
+
+
+##
 [![DOI](https://zenodo.org/badge/95277217.svg)](https://zenodo.org/badge/latestdoi/95277217)
 
 
